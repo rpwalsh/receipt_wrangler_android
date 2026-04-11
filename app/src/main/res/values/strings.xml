@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (c) 2026 Ryan P. Walsh
+ All rights reserved.
+ This software is proprietary and confidential.
+ Unauthorized copying of this file, via any medium is strictly prohibited.
+ This is NOT open source software.
+-->
+
+<resources>
+    <string name="app_name">Receipt Wrangler</string>
+    <string name="camera_hint_default">Center receipt in frame</string>
+    <string name="camera_capture_action">CAPTURE</string>
+    <string name="camera_hint_message">%1$s — %2$s</string>
+    <string name="camera_capture_failed">Capture failed — try again</string>
+</resources>

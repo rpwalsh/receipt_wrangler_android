@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (c) 2026 Ryan P. Walsh
+ All rights reserved.
+ This software is proprietary and confidential.
+ Unauthorized copying of this file, via any medium is strictly prohibited.
+ This is NOT open source software.
+-->
+
+<!-- Feature Graphic (1024x500) - Receipt Wrangler -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1024dp"
+    android:height="500dp"
+    android:viewportWidth="1024"
+    android:viewportHeight="500">
+    
+    <!-- Background -->
+    <path android:fillColor="#1B4D45" android:pathData="M0,0h1024v500h-1024z"/>
+    
+    <!-- Left side: Large receipt illustration -->
+    <!-- Receipt card main -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M70,100h320a16,16 0 0 1 16,16v300a16,16 0 0 1 -16,16h-320a16,16 0 0 1 -16,-16v-300a16,16 0 0 1 16,-16z"/>
+    
+    <!-- Top accent bar -->
+    <path android:fillColor="#1B7D6B"
+        android:pathData="M70,100h320a16,16 0 0 1 16,16v40h-352v-40a16,16 0 0 1 16,-16z"/>
+    
+    <!-- Text lines -->
+    <line android:strokeColor="#E8E8E8" android:strokeWidth="3"
+        android:x1="100" android:y1="170" android:x2="350" android:y2="170"/>
+    <line android:strokeColor="#E8E8E8" android:strokeWidth="3"
+        android:x1="100" android:y1="210" android:x2="350" android:y2="210"/>
+    <line android:strokeColor="#E8E8E8" android:strokeWidth="3"
+        android:x1="100" android:y1="250" android:x2="350" android:y2="250"/>
+    <line android:strokeColor="#E8E8E8" android:strokeWidth="3"
+        android:x1="100" android:y1="290" android:x2="280" android:y2="290"/>
+    
+    <!-- Dollar accent circle -->
+    <circle android:fillColor="#42B5AF" android:cx="310" android:cy="330" android:r="24"/>
+    
+    <!-- Checkmark top right -->
+    <path android:strokeColor="#42B5AF" android:strokeWidth="4"
+        android:strokeLineCap="round" android:strokeLineJoin="round"
+        android:pathData="M320,130 L340,150 L365,125"/>
+    
+    <!-- Right side: Text area accent -->
+    <rect android:fillColor="#42B5AF" android:alpha="0.15"
+        android:x="450" android:y="120" android:width="480" android:height="260"/>
+    
+    <!-- Accent line -->
+    <line android:strokeColor="#42B5AF" android:strokeWidth="8"
+        android:x1="450" android:y1="120" android:x2="450" android:y2="380"/>
+</vector>

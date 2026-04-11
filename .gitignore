@@ -1,0 +1,72 @@
+# Gradle files
+.gradle/
+build/
+local.properties
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.apk
+*.aab
+*.aar
+
+# Native
+*.so
+*.o
+*.a
+*.lib
+
+# Generated files
+*.class
+*.jar
+
+# Android specific
+captures/
+.externalNativeBuild/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+add_*.py
+add_*.ps1
+*.sh
+
+# Helper scripts
+screenshot_*.py
+capture_*.ps1
+
+# Local build tools
+.local-tools/
+
+# Gradle wrapper
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# Generated docs
+DELIVERY_MANIFEST.md
+GRAPHICS_AND_SCREENSHOTS.md
+ICON_DESIGN.md
+INDEX.md
+LAUNCH_READY.md
+LAUNCH_READY.txt
+PLAY_STORE_SUBMISSION.md
+PUBLICATION_CHECKLIST.md
+QUICK_SCREENSHOT_GUIDE.md
+SCREENSHOT_CHECKLIST.md
+SCREENSHOT_GUIDE.md
+
+# Screenshots
+screenshots/
+
+# User-specific tools
+.claude/
