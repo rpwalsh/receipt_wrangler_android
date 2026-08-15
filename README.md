@@ -10,9 +10,6 @@ This is NOT open source software.
 
 A privacy-first, offline-first receipt management app for Android. Capture, organize, and export receipts with on-device OCR and zero cloud sync.
 
-**Google Play Store**: risklab  
-**Support**: uiarchitect@outlook.com
-
 ## Core Features
 
 **Capture & Import**
