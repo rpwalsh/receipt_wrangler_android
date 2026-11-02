@@ -70,3 +70,10 @@ screenshots/
 
 # User-specific tools
 .claude/
+
+# Private signing credentials and signing keys
+keystore.properties
+*.jks
+*.keystore
+*.p12
+*.pfx
